@@ -1,5 +1,7 @@
 # Setup of Apache Airflow in vscode project
-
+## Adding 
+cd /home/ksl/code/apacheairflowwithpython
+touch .gitignore
 ## Virtual Envirnment creation
 cd /home/ksl/code/apacheairflowwithpython # Make sure you are in project root folder
 python3 -m venv airflow_env  # It will create airflow_env folder in root folder.
