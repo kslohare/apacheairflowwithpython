@@ -3,11 +3,11 @@
 cd /home/ksl/code/apacheairflowwithpython
 touch .gitignore
 ## Virtual Envirnment creation
-cd /home/ksl/code/apacheairflowwithpython # Make sure you are in project root folder
-python3 -m venv airflow_env  # It will create airflow_env folder in root folder.
-source airflow_env/bin/activate
-pip install apache-airflow
-airflow db init #Only once at the beginning
+cd /home/ksl/code/apacheairflowwithpython # Make sure you are in project root folder \
+python3 -m venv airflow_env  # It will create airflow_env folder in root folder. \
+source airflow_env/bin/activate \
+pip install apache-airflow \
+airflow db init #Only once at the beginning \
 
 ## To  create new user and pwd for Airflow web application
 airflow users create \
